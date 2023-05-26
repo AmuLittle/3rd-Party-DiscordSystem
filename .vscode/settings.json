@@ -1,0 +1,10 @@
+{
+    "C_Cpp.default.configurationProvider": "ms-vscode.makefile-tools",
+    "rust-analyzer.linkedProjects": [
+        "./third_party_discord_system/Cargo.toml",
+        "./citro2d-sys-3pds/Cargo.toml",
+        "./third_party_discord_system/Cargo.toml",
+        "./third_party_discord_system/Cargo.toml"
+    ],
+    "rust-analyzer.showUnlinkedFileNotification": false
+}

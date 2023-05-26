@@ -1,0 +1,12 @@
+[package]
+name = "citro2d-sys-3pds"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+citro3d-sys = { git = "https://github.com/rust3ds/citro3d-rs.git", version = "0.1.0" }
+ctru-sys = { git = "https://github.com/rust3ds/ctru-rs.git", version = "21.2.0" }
+libc = "0.2.144"
+libm = "0.2.7"

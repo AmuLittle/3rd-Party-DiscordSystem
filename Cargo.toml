@@ -1,0 +1,5 @@
+[workspace]
+members = ["third_party_discord_system", "citro2d-sys-3pds", "bindgen-citro2d"]
+
+[patch.'https://github.com/SmolFoxyBoi/3rd-Party-DiscordSystem']
+citro2d-sys-3pds = { path = "citro2d-sys-3pds" }
